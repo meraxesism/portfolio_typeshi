@@ -115,7 +115,7 @@ export default function Page() {
   <div className="about-grid">
     <div className="about-text reveal">
       <p>
-        Third-year AI/ML Diploma student. Three projects in the real world.
+        Third-year AI/ML Diploma student. Three projects under live use in an MNC.
       </p>
       <p>
         At Tata Motors, I built an AI diagnostic assistant for quality assurance - local LLM inference, vector search, three-language support. It&apos;s deployed. Engineers use it.
