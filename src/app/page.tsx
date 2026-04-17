@@ -96,12 +96,8 @@ export default function Page() {
         <span className="stat-label">ML Algorithms</span>
       </div>
       <div className="stat">
-        <span className="stat-num">2</span>
-        <span className="stat-label">Production Systems</span>
-      </div>
-      <div className="stat">
         <span className="stat-num">3</span>
-        <span className="stat-label">Cloud Certs</span>
+        <span className="stat-label">Production Systems</span>
       </div>
     </div>
   </div>
