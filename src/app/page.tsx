@@ -76,8 +76,8 @@ export default function Page() {
   <div className="hero-accent"></div>
 
     
-  <div className="hero-photo" style={{ position: 'absolute', top: '15%', right: '10%', width: '250px', height: '250px', borderRadius: '50%', overflow: 'hidden', border: '1px solid var(--line)', background: 'var(--bg2)', zIndex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
-    <img src="/heropage.jpeg" alt="Apurv Bhosale" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(0.2) contrast(1.1)' }} />
+  <div className="hero-photo" style={{ position: 'absolute', top: '50%', right: '8%', transform: 'translateY(-50%)', width: 'clamp(300px, 40vw, 550px)', height: 'clamp(300px, 40vw, 550px)', borderRadius: '50%', overflow: 'hidden', border: '1px solid var(--line)', background: 'var(--bg2)', zIndex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
+    <img src="/heropage.jpeg" alt="Apurv Bhosale" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', filter: 'grayscale(0.1) contrast(1.05)' }} />
   </div>
 
   <div className="hero-eyebrow">AI/ML Engineer Â· Pune, India</div>
