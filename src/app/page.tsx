@@ -89,7 +89,7 @@ export default function Page() {
   <div className="hero-meta">
     <div className="hero-desc">
       Third-year Diploma candidate in Artificial Intelligence &amp; Machine Learning
-      at AISSMSP Polytechnic. I architect distributed ML infrastructure
+      at AISSMS Polytechnic. I architect distributed ML infrastructure
       and ship production AI systems. Currently, three of my
       projects are live production systems being used in an MNC.
     </div>
@@ -515,7 +515,7 @@ export default function Page() {
 {/*  FOOTER  */}
 <footer>
   <span>� 2026 Apurv Bhosale</span>
-  <span>Built with intent Â· AISSMSP Polytechnic, Pune</span>
+  <span>Built with intent Â· AISSMS Polytechnic, Pune</span>
   </footer>
 
 
