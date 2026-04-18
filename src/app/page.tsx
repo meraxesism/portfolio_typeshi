@@ -487,13 +487,9 @@ export default function Page() {
           <span className="contact-link-icon">LinkedIn</span>
           linkedin.com/in/apurvvbhosale
         </a>
-        <a href="https://dia-nav.vercel.app/" target="_blank" className="contact-link">
-          <span className="contact-link-icon">Live</span>
-          dia-nav.vercel.app
-        </a>
-        <a href="mailto:apurvbhosale11@gmail.com" className="contact-link">     
+        <a href="mailto:apurvbhosale643@gmail.com" className="contact-link">     
           <span className="contact-link-icon">Email</span>
-          apurvbhosale11@gmail.com
+          apurvbhosale643@gmail.com
         </a>
       </div>
     </div>
