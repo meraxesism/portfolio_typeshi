@@ -91,9 +91,9 @@ export default function Page() {
   <div className="hero-meta">
     <div className="hero-desc">
       Third-year Diploma candidate in Artificial Intelligence &amp; Machine Learning
-      at AISSMSP Polytechnic. I architect distributed ML infrastructure,        
-      ship production AI systems, and build things that actually work -
-      from AutoML platforms to LLM-powered diagnostics.
+      at AISSMSP Polytechnic. I architect distributed ML infrastructure
+      and ship production AI systems. Currently, three of my
+      projects are live production systems being used in an MNC.
     </div>
     <div className="hero-stats">
       <div className="stat">
@@ -114,67 +114,26 @@ export default function Page() {
 </section>
 
 {/*  ABOUT  */}
-<section id="about">
-  <div className="section-label">01 - About</div>
-  <div className="section-heading">The <em>context</em><br/>behind the code</div>
-  <div className="about-grid">
-    <div className="about-text reveal">
-      <p>
-        Third-year AI/ML Diploma student. Three projects under live use in an MNC.
-      </p>
-      <p>
-        At Tata Motors, I built an AI diagnostic assistant for quality assurance - local LLM inference, vector search, three-language support. It&apos;s deployed. Engineers use it.
-      </p>
-      <p>
-        My capstone is FlowML Studio - a self-hosted AutoML platform with GPU acceleration, distributed task queues, object storage, VPN-secured networking, and a hyperparameter optimization engine supporting 15+ algorithms. Built solo. Runs on real infrastructure.
-      </p>
-      <p>
-        I work at the systems level. I understand the fundamentals, then build on top of them. Clean architecture, production-grade reliability, no shortcuts.  
-      </p>
-    </div>
-    <div className="about-right reveal">
-      <p style={{fontFamily: 'var(--mono)', fontSize: '0.62rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--gold-dim)', marginBottom: '1.2rem'}}>Recognition & Impact</p>
 
-      <div className="cert-item" style={{ flexDirection: 'column', gap: '1.5rem', padding: '1.5rem', background: 'var(--bg2)', border: '1px solid var(--line)' }}>
-
-        {/* Text Section Above */}
-        <div className="cert-body" style={{ width: '100%' }}>
-          <div className="cert-name" style={{ fontSize: '0.95rem', color: 'var(--gold)', marginBottom: '0.6rem', lineHeight: '1.4' }}>
-            Felicitation by Tata Motors QA Dept General Manager
-          </div>
-          <div className="cert-issuer" style={{ color: 'var(--cream-dim)', lineHeight: '1.6' }}>
-            Recognized by leadership and team for independently architecting the DiaNav semantic AI platform, transforming QA workflows and operational scalability.
-            <br/><br/>
-            <em style={{ color: 'var(--gold-dim)' }}>[ Letter of Recommendation & Feedback Pending ]</em>
-          </div>
-        </div>
-
-        {/* Image as a small rectangular card below */}
-        <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-          <img
-            src="/tata-appreciation.jpg"
-            alt="Felicitation at Tata Motors"
-            style={{
-              width: '100%',
-              maxWidth: '260px',
-              height: '160px',
-              objectFit: 'cover',
-              border: '1px solid var(--line)',
-              borderRadius: '6px',
-              filter: 'grayscale(0.1) contrast(1.05)'
-            }}
-          />
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
 
 
 {/*  PROJECTS  */}
+
+
+{/* SKILLS */}
+
+
+
+
+{/*  CONTACT  */}
+
+
+
+
+
+
 <section id="projects">
-  <div className="section-label">02 - Projects</div>
+  <div className="section-label">01 - Projects</div>
   <div className="section-heading">Systems built,<br/>not <em>assembled</em></div>
 
   <div className="projects-container">
@@ -297,9 +256,8 @@ export default function Page() {
   </div>
 </section>
 
-{/* SKILLS */}
 <section id="skills">
-  <div className="section-label">03 - Skills &amp; Stack</div>
+  <div className="section-label">02 - Skills &amp; Stack</div>
   <div className="section-heading">What I<br/>actually <em>know</em></div>      
 
   <div className="skills-layout" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1.2fr)', gap: '4rem', alignItems: 'start' }}>
@@ -461,9 +419,63 @@ export default function Page() {
   </div>
 </section>
 
+<section id="about">
+  <div className="section-label">03 - About</div>
+  <div className="section-heading">The <em>context</em><br/>behind the code</div>
+  <div className="about-grid">
+    <div className="about-text reveal">
+      <p>
+        Third-year AI/ML Diploma student. Three projects under live use in an MNC.
+      </p>
+      <p>
+        At Tata Motors, I built an AI diagnostic assistant for quality assurance - local LLM inference, vector search, three-language support. It&apos;s deployed. Engineers use it.
+      </p>
+      <p>
+        My capstone is FlowML Studio - a self-hosted AutoML platform with GPU acceleration, distributed task queues, object storage, VPN-secured networking, and a hyperparameter optimization engine supporting 15+ algorithms. Built solo. Runs on real infrastructure.
+      </p>
+      <p>
+        I work at the systems level. I understand the fundamentals, then build on top of them. Clean architecture, production-grade reliability, no shortcuts.  
+      </p>
+    </div>
+    <div className="about-right reveal">
+      <p style={{fontFamily: 'var(--mono)', fontSize: '0.62rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--gold-dim)', marginBottom: '1.2rem'}}>Recognition & Impact</p>
 
+      <div className="cert-item" style={{ flexDirection: 'column', gap: '1.5rem', padding: '1.5rem', background: 'var(--bg2)', border: '1px solid var(--line)' }}>
 
-{/*  CONTACT  */}
+        {/* Text Section Above */}
+        <div className="cert-body" style={{ width: '100%' }}>
+          <div className="cert-name" style={{ fontSize: '0.95rem', color: 'var(--gold)', marginBottom: '0.6rem', lineHeight: '1.4' }}>
+            Felicitation by Tata Motors QA Dept General Manager
+          </div>
+          <div className="cert-issuer" style={{ color: 'var(--cream-dim)', lineHeight: '1.6' }}>
+            Recognized by leadership and team for independently architecting the DiaNav semantic AI platform, transforming QA workflows and operational scalability.
+            <br/><br/>
+            <em style={{ color: 'var(--gold-dim)' }}>[ Letter of Recommendation & Feedback Pending ]</em>
+          </div>
+        </div>
+
+        {/* Image as a small rectangular card below */}
+        <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+          <img
+            src="/tata-appreciation.jpg"
+            alt="Felicitation at Tata Motors"
+            style={{
+              width: '100%',
+              maxWidth: '260px',
+              height: '160px',
+              objectFit: 'cover',
+              border: '1px solid var(--line)',
+              borderRadius: '6px',
+              filter: 'grayscale(0.1) contrast(1.05)'
+            }}
+          />
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="contact">
   <div className="section-label">04 - Contact</div>
   <div className="contact-inner">
