@@ -78,7 +78,7 @@ export default function Page() {
   <div className="hero-grid"></div>
   <div className="hero-accent"></div>
 
-  <div className="hero-eyebrow">AI/ML Engineer � Pune, India</div>
+  <div className="hero-eyebrow">AI/ML Engineering Student � Pune, India</div>
 
   <div className="hero-name">
     Apurv<br/><em>Bhosale</em>

@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Apurv Bhosale — Software Engineer",
-  description: "Software Engineer Portfolio"
+  title: "Apurv Bhosale � AI/ML Engineer",
+  description: "AI/ML Engineer Portfolio"
 };
 
 export default function RootLayout({
