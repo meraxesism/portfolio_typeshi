@@ -78,7 +78,7 @@ export default function Page() {
   <div className="hero-grid"></div>
   <div className="hero-accent"></div>
 
-  <div className="hero-eyebrow">AI/ML Engineer Â· Pune, India</div>
+  <div className="hero-eyebrow">AI/ML Engineer � Pune, India</div>
 
   <div className="hero-name">
     Apurv<br/><em>Bhosale</em>
@@ -515,7 +515,7 @@ export default function Page() {
 {/*  FOOTER  */}
 <footer>
   <span>� 2026 Apurv Bhosale</span>
-  <span>Built with intent Â· AISSMS Polytechnic, Pune</span>
+  <span>Built with intent � AISSMS Polytechnic, Pune</span>
   </footer>
 
 
