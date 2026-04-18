@@ -514,10 +514,9 @@ export default function Page() {
 
 {/*  FOOTER  */}
 <footer>
-  <span>Â© 2025 Apurv Bhosale</span>
+  <span>� 2026 Apurv Bhosale</span>
   <span>Built with intent Â· AISSMSP Polytechnic, Pune</span>
-  <span>Guided by Ms. A.A. Shirode</span>
-</footer>
+  </footer>
 
 
     </main>
