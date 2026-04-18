@@ -61,11 +61,11 @@ export default function Page() {
 
 {/*  NAV  */}
 <nav id="navbar">
-  <a href="#" className="nav-logo">A<span>.</span></a>
+  <a href="https://github.com/meraxesism" target="_blank" className="nav-logo">A<span>.</span></a>
   <div className="nav-links">
-    <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
+    <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
