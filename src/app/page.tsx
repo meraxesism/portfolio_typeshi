@@ -447,8 +447,7 @@ export default function Page() {
           </div>
           <div className="cert-issuer" style={{ color: 'var(--cream-dim)', lineHeight: '1.6' }}>
             Recognized by leadership and team for independently architecting the DiaNav semantic AI platform, transforming QA workflows and operational scalability.
-            <br/><br/>
-            <em style={{ color: 'var(--gold-dim)' }}>[ Letter of Recommendation & Feedback Pending ]</em>
+            
           </div>
         </div>
 
